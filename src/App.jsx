@@ -17,7 +17,7 @@ function App() {
     <>
       <Routes>
         {/* Route for CoverPage */}
-        <Route path="/cover" element={<CoverPage />} />
+        <Route path="/" element={<CoverPage />} />
 
         {/* Route for Login and Signup */}
         <Route path="/login" element={<Login />} />
